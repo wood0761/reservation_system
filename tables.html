@@ -1,22 +1,36 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
     <title>Tables Page</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+
 </head>
 
 <body>
     <div class="container">
         <div class="jumbotron">
-            <h1 class="display-4">Parlour</h1>
-            <hr class="my-4">
-            <p class="lead">Current Reservations Waiting List</p>
-            <a class="btn btn-primary btn-lg" href="/reserve.html" role="button">Make Reservation</a>
+            <h1 class="text-center">
+                <span class="glyphicon glyphicon-fire"></span>Parlour</h1>
+            <hr>
+            <h2 class="text-center">Current Reservations Waiting List</h2>
+            <br>
+            <div class="text-center">
+                <a href="/reserve">
+                    <button type="button" class="btn btn-lg btn-danger">
+                        <span class="glyphicon glyphicon-credit-card"></span> Make Reservation</button>
+                </a>
+                <a href="/index">
+                    <button type="button" class="btn btn-lg btn-default">
+                        <span class="glyphicon glyphicon-home"></span>
+                    </button>
+                </a>
+            </div>
+
         </div>
         <div class="row">
             <!-- Reservation List -->
